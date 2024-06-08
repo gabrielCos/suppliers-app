@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+.edit-container {
+  position: relative;
+  z-index: 103;
+  pointer-events: auto;
+  border-radius: 30px;
+}
+
+.edit-controls {
+  padding: 20px;
+  margin: 0;
+}
+
+.edit-control {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.edit-control label {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+  width: 70px;
+}
+
+.edit-control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.checked label {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.checked input {
+  width: 1rem;
+}
+
+.edit-actions {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 900;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.cancel {
+  background-color: #bc3b3b;
+  margin-left: 25px;
+}
+
+.save {
+  background-color: #0da556;
+  margin-left: 10px;
+}

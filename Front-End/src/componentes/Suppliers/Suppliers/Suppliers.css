@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+.suppliers {
+  padding: 1rem;
+  background-color: rgb(31, 31, 31);
+  margin: 0 auto;
+  height: 46em;
+  width: 80%;
+  max-width: 80%;
+}
+
+.upper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.upper p {
+  font-size: larger;
+  font-weight: 900;
+}
+
+.upper button {
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 900;
+  padding: 1rem 2rem;
+  background-color: #6A238A;
+  border: none;
+  border-radius: 15px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente */
+  z-index: 100; /* Certifique-se de que o overlay esteja acima do conteúdo principal */
+  display: none; /* Inicialmente oculto */
+}
+
+.overlay.show {
+  display: block; /* Exibir quando o formulário estiver aberto */
+}

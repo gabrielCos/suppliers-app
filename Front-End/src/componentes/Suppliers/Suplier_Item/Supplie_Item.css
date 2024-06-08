@@ -1,0 +1,28 @@
+.supplier-item {
+  padding: 10px 0;
+}
+
+.supplier-status {
+  padding: 5px 10px ;
+  display: block;
+}
+
+.supplie-status__false {
+  color: white;
+  background-color: #BB5D5D; 
+  border-radius: 5px; 
+}
+
+.supplie-status__true {
+  color: white;
+  background-color: #5DB74E; 
+  border-radius: 5px; 
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  top: 0.7rem;
+}

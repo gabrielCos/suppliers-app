@@ -1,0 +1,47 @@
+
+
+.modal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-overlay {
+    background-color: #00000080;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+
+}
+
+.modal-content-header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.modal-content {
+    background-color: #3f3f3f;
+    border-radius: 10px;
+    padding: 20px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.modal-content-purple {
+    background-color: #913fb8;
+}
+
+.modal-content-blue {
+    background-color: #2a238a;
+}

@@ -1,0 +1,42 @@
+.suppliers-list {
+  width: 100%;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: center; 
+  border-collapse: collapse;
+}
+
+.suppliers-list-head {
+  background-color: #3f3f3f;
+  border-radius: 20px;
+}
+
+.suppliers-list-head th:first-child {
+  border-radius: 20px 0 0 20px;
+}
+
+.suppliers-list-head th:last-child {
+  border-radius:  0 20px 20px 0;
+}
+
+.suppliers-list th,
+.suppliers-list td {
+  padding: 16px 20px; 
+  text-align: center;
+  color: white;
+}
+
+.suppliers-list thead {
+  color: white;
+  font-weight: 900;
+  border-radius: 30px;
+}
+
+.suppliers-list thead th {
+  padding: 20px;
+} 
+
+.expenses-list__fallback {
+  text-align: center;
+  color: red;
+}
