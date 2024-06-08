@@ -1,6 +1,6 @@
 import { Supplier, SupplierBody } from "../types/supllier";
 
-const url = 'http://localhost:8080/api'
+const url = 'http://ec2-18-229-120-133.sa-east-1.compute.amazonaws.com/api'
 
 export const getAllSupliers = async () => {
     const response = await fetch(`${url}/suppliers`);
