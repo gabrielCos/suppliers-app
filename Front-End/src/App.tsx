@@ -10,8 +10,6 @@ import { createSupplier, deleteSupplier, getAllSupliers, updateSupplier } from "
 
 // Interface para definir o tipo de uma despesa
 
-const DUMMY_SUPPLIERS: Supplier[] = [];
-
 const App: React.FC = () => {
   const [suppliers, setSuppliers] = useState<Supplier[]>([]);
   const [isPopupOpen, setIsPopupOpen] = useState(false);

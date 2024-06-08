@@ -27,7 +27,7 @@ const SupplierItem: React.FC<SupplierItemProps> = ({ item, onDelete, onEdit }) =
         setViewingSupplier(null);
     };
 
-    const { id, cnpj, name, status, value } = item
+    const {  name, cnpj, status, value } = item
 
     return (
         <>

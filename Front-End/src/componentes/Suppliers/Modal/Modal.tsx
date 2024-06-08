@@ -1,7 +1,6 @@
 import { ReactNode } from "react"
 
 import "./Modal.css"
-import { CloseOutlined } from "@ant-design/icons";
 
 type ModalProps = {
     children: ReactNode;

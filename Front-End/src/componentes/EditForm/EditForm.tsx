@@ -1,5 +1,5 @@
 import React, { useState, ChangeEvent, FormEvent } from "react";
-import { Supplier, SupplierBody } from "../../types/supllier";
+import { Supplier } from "../../types/supllier";
 
 import "./EditForm.css"
 
